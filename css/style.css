@@ -615,7 +615,8 @@ p{
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     background: -webkit-linear-gradient(#00e0fe, #1107fe);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -655,7 +656,8 @@ p{
 
 .feature i {
     background: -webkit-linear-gradient(#00e0fe, #1107fe);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 54px;
 }
